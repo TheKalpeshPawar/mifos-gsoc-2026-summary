@@ -59,7 +59,10 @@ Demo videos of the main journeys.
 
 ### AISP — Account Information Service
 
-https://github.com/user-attachments/assets/747ec6d8-3f26-4647-8790-fbed41bc9e45
+
+
+https://github.com/user-attachments/assets/871190f5-2ba9-4d0b-881d-28effdc29429
+
 
 ### PISP — Payment Initiation Service
 
@@ -77,7 +80,10 @@ https://github.com/user-attachments/assets/eadd5968-cb6d-4863-9253-55d317ff0e47
 
 #### Variable Recurring Payments
 
-https://github.com/user-attachments/assets/c83e1424-6715-4f70-8df4-5db155200c31
+
+
+https://github.com/user-attachments/assets/5b0b0960-6f38-4b75-a2b5-4221fcf8f9ee
+
 
 ## What's Left to Do
 
