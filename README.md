@@ -32,12 +32,12 @@
 
 ## Project Overview
 
-The GSoC 2026 project — **Mifos X Open Banking App** — is a reference implementation demonstrating how third-party fintechs can leverage Open Banking standards (PSD2, UK Open Banking) to provide innovative financial services to users of Mifos/Fineract-powered institutions and beyond.
+My GSoC 2026 project, **Mifos X Open Banking**, is a reference application demonstrating how third-party fintechs can leverage Open Banking standards (PSD2, UK Open Banking) to provide innovative financial services to users of Mifos/Fineract-powered institutions and beyond.
 
-The original project idea targeted the **Open Bank Project (OBP)** sandbox. Over the course of the summer the work pivoted and was **rebuilt on the HSBC UK Open Banking sandbox** — the OBIE v4.0 / FAPI reference the project now targets — culminating in the two halves of Open Banking:
+The original project idea targeted the **Open Bank Project (OBP)** sandbox. Over the course of the summer, the work pivoted and was **rebuilt on the HSBC UK Open Banking sandbox** — the OBIE v4.0 / FAPI reference the project now targets — culminating in the two halves of Open Banking:
 
-- **AISP — Account Information Services.** Connect a bank and consent to data access, then aggregate accounts, balances, transaction history, statements, standing orders, direct debits, scheduled payments, beneficiaries and product details. Includes a full OAuth consent journey (`private_key_jwt` client auth over mutual TLS) with granular consent management and revoke.
-- **PISP — Payment Initiation Services.** Initiate **single**, **scheduled** and **standing-order** payments on both the domestic and international rails, each with Strong Customer Authentication, plus **Variable Recurring Payments (VRP)** — a separate consent/session family for recurring debits.
+- **AISP — Account Information Services.** Connect a bank and consent to data access, then aggregate accounts, balances, transaction history, statements, standing orders, direct debits, scheduled payments, beneficiaries and product details. Includes a full OAuth consent journey (`private_key_jwt` client auth over mutual TLS) with granular consent management and revocation.
+- **PISP — Payment Initiation Services.** Initiate **single**, **scheduled** and **standing-order** payments on both the domestic and international rails, each with Strong Customer Authentication, plus **Variable Recurring Payments (VRP)**, which is a separate PISP API family.
 
 Built with **Kotlin Multiplatform + Compose Multiplatform** (Android, iOS, and desktop from one codebase), Ktor, Koin, Store5, Room, and a FAPI-compliant network stack with mutual TLS and detached-JWS message signing.
 
@@ -94,7 +94,7 @@ The app is functionally complete — AISP, PISP and VRP are all wired end-to-end
 
 ## Conclusion
 
-Over the summer I built the Mifos X Open Banking app from the KMP template up: a FAPI-compliant Open Banking client that connects to HSBC, consents to data access, surfaces the full AIS read surface, and then — on the write side — initiates single, scheduled and standing-order payments plus Variable Recurring Payments, each through bank authorisation and back to a settled status. The work closed out Jira tickets spanning **MXOBA-15** through **MXOBA-85** (65 tickets) across **6 merged pull requests**.
+Over the summer, I built the Mifos X Open Banking app from the KMP template up: a FAPI-compliant Open Banking client that connects to HSBC, consents to data access, surfaces the full AIS read surface, and then, on the payments side, initiates single, scheduled and standing-order payments plus Variable Recurring Payments, each through bank authorisation and back to a settled status. The work closed out Jira tickets spanning **MXOBA-15** through **MXOBA-85** (65 tickets) across **6 merged pull requests**.
 
 ## Additional Links
 
