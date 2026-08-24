@@ -36,7 +36,7 @@ The original project idea targeted the **Open Bank Project (OBP)** sandbox. Over
 - **AISP — Account Information Services.** Connect a bank and consent to data access, then aggregate accounts, balances, transaction history, statements, standing orders, direct debits, scheduled payments, beneficiaries and product details. Includes a full OAuth consent journey (`private_key_jwt` client auth over mutual TLS) with granular consent management and revoke.
 - **PISP — Payment Initiation Services.** Initiate **single**, **scheduled** and **standing-order** payments on both the domestic and international rails, each with Strong Customer Authentication, plus **Variable Recurring Payments (VRP)** — a separate consent/session family for recurring debits.
 
-Built with **Kotlin Multiplatform + Compose Multiplatform** (Android, iOS, desktop and web from one codebase), Ktor, Koin, Store5, Room, and a FAPI-compliant network stack with mutual TLS and detached-JWS message signing.
+Built with **Kotlin Multiplatform + Compose Multiplatform** (Android, iOS, and desktop from one codebase), Ktor, Koin, Store5, Room, and a FAPI-compliant network stack with mutual TLS and detached-JWS message signing.
 
 > **Repo:** [`openMF/mifos-x-open-banking`](https://github.com/openMF/mifos-x-open-banking)
 
@@ -59,25 +59,29 @@ Demo videos of the main journeys.
 
 ### AISP — Account Information Service
 
-<!-- VIDEO_PLACEHOLDER: AISP -->
+https://github.com/user-attachments/assets/747ec6d8-3f26-4647-8790-fbed41bc9e45
 
 ### PISP — Payment Initiation Service
 
 #### Single Payment
 
-<!-- VIDEO_PLACEHOLDER: PISP - Single Payment -->
+
+
+https://github.com/user-attachments/assets/edad3a66-b0e2-4897-bec9-e13457b66311
+
+
 
 #### Standing Orders
 
-<!-- VIDEO_PLACEHOLDER: PISP - Standing Orders -->
+https://github.com/user-attachments/assets/a572d82e-d91d-4f3a-836f-82c52e42305c
 
 #### Scheduled Payments
 
-<!-- VIDEO_PLACEHOLDER: PISP - Scheduled Payments -->
+https://github.com/user-attachments/assets/eadd5968-cb6d-4863-9253-55d317ff0e47
 
 #### Variable Recurring Payments
 
-<!-- VIDEO_PLACEHOLDER: PISP - Variable Recurring Payments -->
+https://github.com/user-attachments/assets/c83e1424-6715-4f70-8df4-5db155200c31
 
 ## What's Left to Do
 
