@@ -15,8 +15,6 @@
   <img alt="GSoC 2026" src="https://img.shields.io/badge/GSoC-2026-ffa500?logo=google&logoColor=white">
   <img alt="Kotlin Multiplatform" src="https://img.shields.io/badge/Kotlin-Multiplatform-7F52FF?logo=kotlin&logoColor=white">
   <img alt="Compose Multiplatform" src="https://img.shields.io/badge/Compose-Multiplatform-2E7D32?logo=jetpackcompose&logoColor=white">
-  <img alt="Ktor" src="https://img.shields.io/badge/Ktor-087CFA?logo=kotlin&logoColor=white">
-  <img alt="Koin" src="https://img.shields.io/badge/Koin-DI-000000?logo=kotlin&logoColor=white">
 </p>
 
 </div>
