@@ -2,7 +2,10 @@
 
 <div align="center">
 
-<h1>Google Summer of Code 2026 — Mifos X Open Banking App</h1>
+  <!-- BANNER_PLACEHOLDER: paste your banner image URL in the src below -->
+  <img src="PASTE_BANNER_IMAGE_URL" alt="Google Summer of Code x Mifos Initiative" width="900" height="500" />
+
+  <h1>Google Summer of Code 2026 — Mifos X Open Banking App</h1>
 
 <p>
   This repository documents my GSoC 2026 work with the <a href="https://github.com/openMF">Mifos Initiative</a>: a standalone Open Banking reference app built with <b>Kotlin Multiplatform + Compose Multiplatform</b>, integrating with the <b>HSBC UK Open Banking sandbox</b> (OBIE v4.0 / FAPI).
