@@ -89,7 +89,7 @@ Over the summer I built the Mifos X Open Banking app from the KMP template up: a
 
 ## Additional Links
 
-- **[OAuth callback bridge](https://github.com/TheKalpeshPawar/obp-callback)** — a GitHub Pages page at `https://thekalpeshpawar.github.io/obp-callback/`, used as the app's OAuth consent `redirect_uri`. The HSBC UK Open Banking sandbox (FAPI-compliant) requires the redirect URI to be a registered **HTTPS** URL, which a native app cannot provide without a production domain — so this free GitHub Pages site supplies that HTTPS endpoint, and its JavaScript relays the authorisation response back into the app.
+- **[OAuth callback bridge](https://github.com/TheKalpeshPawar/obp-callback)** — a page hosted on my GitHub repo at `https://thekalpeshpawar.github.io/obp-callback/`, used as the app's OAuth consent `redirect_uri`. The HSBC UK Open Banking sandbox (FAPI-compliant) requires the redirect URI to be a registered **HTTPS** URL, which a native app cannot provide without a production domain — so this GitHub-hosted page supplies that HTTPS endpoint, and its JavaScript relays the authorisation response back into the app.
 - **[HSBC Open Banking API catalogue](https://develop.hsbc.com/apis?f%5B0%5D=solutions%3A435)** — the HSBC sandbox's Open Banking API catalogue.
 - **[HSBC UK Open Banking Implementation Guide (v4)](https://develop.hsbc.com/sites/default/files/open_banking/HSBC%20UK%20Open%20Banking%20Implementation%20Guide%20(v4).pdf)** — the official implementation guide.
 - **[AISP — Account Information](https://develop.hsbc.com/ob-api-documentation/account-information-uk-hsbc-personal)** — Account Information Service API documentation.
