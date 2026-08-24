@@ -65,11 +65,7 @@ https://github.com/user-attachments/assets/747ec6d8-3f26-4647-8790-fbed41bc9e45
 
 #### Single Payment
 
-
-
 https://github.com/user-attachments/assets/edad3a66-b0e2-4897-bec9-e13457b66311
-
-
 
 #### Standing Orders
 
@@ -85,7 +81,7 @@ https://github.com/user-attachments/assets/c83e1424-6715-4f70-8df4-5db155200c31
 
 ## What's Left to Do
 
-The app is functionally complete — AISP, PISP and VRP are all wired end-to-end against the HSBC sandbox. The only remaining work is a **UI rework**: aligning the screens with the shared component library (`Mifos*` / `KptScaffold`) for a consistent look and feel.
+The app is functionally complete — AISP, PISP and VRP are all wired end-to-end against the HSBC sandbox. The only remaining work is a **UI rework**.
 
 ## Conclusion
 
