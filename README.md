@@ -3,7 +3,7 @@
 <div align="center">
 
   <!-- BANNER_PLACEHOLDER: paste your banner image URL in the src below -->
-  <img src="PASTE_BANNER_IMAGE_URL" alt="Google Summer of Code x Mifos Initiative" width="900" height="500" />
+  <img src="https://github.com/user-attachments/assets/b8db8f2d-d590-4534-bf98-7dde33a6b479" alt="Google Summer of Code x Mifos Initiative" width="900" height="500" />
 
   <h1>Google Summer of Code 2026 — Mifos X Open Banking App</h1>
 
