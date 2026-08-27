@@ -61,10 +61,7 @@ Demo videos of the main journeys.
 ### AISP — Account Information Service
 
 
-https://github.com/user-attachments/assets/ce6bc9d0-dba6-459e-b5ad-0f82f26d6667
-
-
-https://github.com/user-attachments/assets/da95c413-0e76-4355-a54e-777f17eb8e74
+https://github.com/user-attachments/assets/ad235128-6821-40d5-97df-3f354be3a1e2
 
 ### PISP — Payment Initiation Service
 
