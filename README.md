@@ -83,14 +83,6 @@ https://github.com/user-attachments/assets/eadd5968-cb6d-4863-9253-55d317ff0e47
 
 https://github.com/user-attachments/assets/2d2f527c-592c-4185-973d-fcd6518166fb
 
-
-
-## What's Left to Do
-
-The app is functionally complete — AISP, PISP and VRP are all wired end-to-end against the HSBC sandbox, and the UI rework has moved the app onto the shared design system.
-
-What remains is the tail of that rework: `consent-detail` and `consent-list` still render on `MaterialTheme` with their own dimension constants, and `product` still carries its own error, empty and skeleton states rather than the shared ones.
-
 ## Conclusion
 
 Over the summer, I built the Mifos X Open Banking app from the KMP template up: a FAPI-compliant Open Banking client that connects to HSBC, consents to data access, surfaces the full AIS read surface, and then, on the payments side, initiates single, scheduled and standing-order payments plus Variable Recurring Payments, each through bank authorisation and back to a settled status. The work closed out Jira tickets spanning **MXOBA-15** through **MXOBA-92** (68 tickets) across **8 pull requests**.
