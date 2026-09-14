@@ -24,7 +24,6 @@
 - [Project Overview](#project-overview)
 - [Pull Requests](#pull-requests)
 - [Demo](#demo)
-- [What's Left to Do](#whats-left-to-do)
 - [Conclusion](#conclusion)
 - [Additional Links](#additional-links)
 
